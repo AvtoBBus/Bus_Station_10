@@ -1,0 +1,164 @@
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts/intro.css">
+    <title>Google MyPage</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="currentDataTime" style="font-family: Intro;">
+            <div class="currentTime" id="currentTimeId">11:30</div>
+            <script type="text/javascript">
+                function zero_first_format(value) {
+                    if (value < 10) {
+                        value = '0' + value;
+                    }
+                    return value;
+                }
+                function time() {
+                    var current_datetime = new Date();
+                    var hours = zero_first_format(current_datetime.getHours());
+                    var minutes = zero_first_format(current_datetime.getMinutes());
+                    return hours + ":" + minutes;
+                }
+                setInterval(function () {
+                    document.getElementById('currentTimeId').innerHTML = time();
+                }, 1000);
+            </script>
+            <div class="currentData" id="currentDataId">28.05.2023</div>
+            <script type="text/javascript">
+                function zero_first_format(value) {
+                    if (value < 10) {
+                        value = '0' + value;
+                    }
+                    return value;
+                }
+                function date() {
+                    var current_datetime = new Date();
+                    var day = zero_first_format(current_datetime.getDate());
+                    var month = zero_first_format(current_datetime.getMonth() + 1);
+                    var year = current_datetime.getFullYear();
+                    return day + "." + month + "." + year;
+                }
+                setInterval(function () {
+                    document.getElementById('currentDataId').innerHTML = date();
+                }, 1000);
+            </script>
+        </div>
+
+        <ul class="moreVisitedLinks">
+            <li>
+                <a class="linksVK" href="https://vk.com/im">
+                    <img class="logoVK" src="img/VK.png">
+                </a>
+            </li>
+            <li>
+                <a class="linksTG" href="https://web.telegram.org/k/">
+                    <img class="logoTG" src="img/Telegram.png">
+                </a>
+            </li>
+        </ul>
+        <ul class="moreVisitedLinks2">
+            <li>
+                <a class="linksGH" href="https://github.com/AvtoBBus">
+                    <img class="logoGH" src="img/GitHub.png">
+                </a>
+            </li>
+            <li>
+                <a class="linksGH" href="https://leetcode.com/problemset/all/">
+                    <img class="logoGH" src="img/LeetCode.webp">
+                </a>
+            </li>
+        </ul>
+        <ul class="moreVisitedLinks3">
+            <li>
+                <a class="linksSSAU" href="https://cabinet.ssau.ru/">
+                    <img class="logoSSAU" src="img/SSAU.png">
+                </a>
+            </li>
+            <li>
+                <a class="linksYT" href="https://www.youtube.com/">
+                    <img class="logoGH" src="img/Youtube.png">
+                </a>
+            </li>
+        </ul>
+    </header>
+    <footer>
+        <ul class="someLinks">
+            <li>
+                <a href="https://passport.yandex.ru/auth/list?mode=edit&retpath=https%3A%2F%2Fmail.yandex.ru">
+                    <img class="logoDocs" src="img/YAMail.png">
+                </a>
+            </li>
+            <li>
+                <a href="https://translate.yandex.ru/">
+                    <img class="logoTranslater" src="img/YATranslater.png">
+                </a>
+            </li>
+            <li>
+                <a href="https://yandex.ru/maps/51/samara/?ll=50.242747%2C53.232312&z=12">
+                    <img class="logoMaps" src="img/YAMaps.png">
+                </a>
+            </li>
+            <li>
+                <a href="https://yandex.ru/pogoda/samara?lat=53.195876&lon=50.100199">
+                    <img class="logoWeather" src="img/YAWeather.png">
+                </a>
+            </li>
+        </ul>
+        <ul class="someLinks2">
+            <li>
+                <a href="https://www.google.ru/intl/ru/docs/about/">
+                    <img class="logoMail" src="img/GDocs.png">
+                </a>
+            </li>
+            <li>
+                <a href="https://docs.google.com/spreadsheets/u/0/?hl=ru">
+                    <img class="logoTabels" src="img/GTabels.png">
+                </a>
+            </li>
+            <li>
+                <a href="https://docs.google.com/forms/u/0/?tgif=d">
+                    <img class="logoForms" src="img/GForms.png">
+                </a>
+            </li>
+            <li>
+                <a href="https://drive.google.com/drive/my-drive?hl=ru">
+                    <img class="logoDrive" src="img/GDrive.png">
+                </a>
+            </li>
+        </ul>
+        <ul class="someLinks3">
+            <li>
+                <a href="https://stackoverflow.com/">
+                    <img class="logoSOverflow" src="img/SOverflow.png">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.codewars.com/trainer/setup">
+                    <img class="logoCWars" src="img/CWars.png">
+                </a>
+            </li>
+            <li>
+                <a href="https://htmlacademy.ru/">
+                    <img class="logoHTMLA" src="img/HTMLA.png">
+                </a>
+            </li>
+            <li>
+                <a href="https://do.ssau.ru/moodle/">
+                    <img class="logoMoodle" src="img/Moodle.png">
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
+</body>
+
+</html>

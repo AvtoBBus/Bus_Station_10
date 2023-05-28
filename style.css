@@ -1,0 +1,195 @@
+* {
+    background-color: rgb(24, 24, 24);
+}
+
+li {
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-content: space-around;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.currentDataTime {
+    margin-left: 250;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    margin-top: 200;
+}
+
+.currentTime {
+    font-size: 150px;
+    color: rgb(157, 0, 181);
+    border: 2px solid rgb(157, 0, 181);
+    border-radius: 5px;
+    width: fit-content;
+    height: max-content;
+    text-shadow: 5px 5px 5px rgb(28, 0, 33);
+    box-shadow: inset 0 -3em 3em rgb(157, 0, 181, 0.1), 0 0 0 2px rgb(157, 0, 181, 0.1), 0.3em 0.3em 1em rgb(157, 0, 181, 0.1);
+    margin-right: 5px;
+    padding-left: 5px;
+}
+
+.currentData {
+    font-size: 40px;
+    color: rgb(157, 0, 181);
+    border: 2px solid rgb(157, 0, 181);
+    border-radius: 5px;
+    width: fit-content;
+    height: max-content;
+    text-shadow: 5px 5px 5px rgb(28, 0, 33);
+    box-shadow: inset 0 -3em 3em rgb(157, 0, 181, 0.1), 0 0 0 2px rgb(157, 0, 181, 0.1), 0.3em 0.3em 1em rgb(157, 0, 181, 0.1);
+    padding-right: 8px;
+    padding-left: 2px;
+}
+
+.moreVisitedLinks {
+    font-size: 40px;
+    margin-top: 180px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: max-content;
+    height: max-content;
+    padding-left: 0;
+}
+
+.moreVisitedLinks2 {
+    font-size: 40px;
+    margin-top: 180px;
+    margin-right: 50px;
+    width: max-content;
+    height: max-content;
+    padding-left: 0;
+}
+
+.moreVisitedLinks3 {
+    font-size: 40px;
+    margin-top: 180px;
+    margin-right: auto;
+    width: max-content;
+    height: max-content;
+    padding-left: 0;
+}
+
+.logoVK {
+    width: 80px;
+
+}
+
+.logoTG {
+    width: 80px;
+}
+
+.logoGH {
+    width: 80px;
+}
+
+.logoSSAU {
+    width: 80px;
+}
+
+.logoYT {
+    width: 80px;
+}
+
+.someLinks {
+    display: flex;
+    flex-direction: column;
+    margin-left: 250;
+    margin-top: 50px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.someLinks2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.someLinks3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.logoMail {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.logoTranslater {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.logoMaps {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.logoWeather {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.logoDocs {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.logoTabels {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.logoForms {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.logoDrive {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.logoSOverflow {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.logoCWars {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.logoHTMLA {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.logoMoodle {
+    width: 40px;
+    margin-bottom: 10px;
+}
